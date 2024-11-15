@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{524A7D75-D802-44F2-9168-3F21DDFA59DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongParameterList", "LongParameterList\LongParameterList.csproj", "{B3DFDE59-3C9D-4E6F-8B1E-702F6715F233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongParameterList", "LongParameterList\LongParameterList.csproj", "{B3DFDE59-3C9D-4E6F-8B1E-702F6715F233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{69CFC367-7B8D-46B7-A02F-B6C4621B5DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{69CFC367-7B8D-46B7-A02F-B6C4621B5DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageChains", "MessageChains\MessageChains.csproj", "{E2643F9C-D5B5-44F4-B72E-738B64F6AD35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageChains", "MessageChains\MessageChains.csproj", "{E2643F9C-D5B5-44F4-B72E-738B64F6AD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefusedBequest", "RefusedBequest\RefusedBequest.csproj", "{46236505-DCF6-4A69-8F98-89420324D600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefusedBequest", "RefusedBequest\RefusedBequest.csproj", "{46236505-DCF6-4A69-8F98-89420324D600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlaywrightTests", "PlaywrightTests\PlaywrightTests.csproj", "{93A985AB-6F76-4659-888D-933831E60EFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{46236505-DCF6-4A69-8F98-89420324D600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46236505-DCF6-4A69-8F98-89420324D600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46236505-DCF6-4A69-8F98-89420324D600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A985AB-6F76-4659-888D-933831E60EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A985AB-6F76-4659-888D-933831E60EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A985AB-6F76-4659-888D-933831E60EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A985AB-6F76-4659-888D-933831E60EFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
